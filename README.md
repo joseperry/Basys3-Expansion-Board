@@ -34,7 +34,7 @@ This project extends the capabilities of the BASYS3 FPGA board by integrating co
 | DACs                  | 8-bit DAC and 12-bit DAC                         |
 | Seven-Segment Display | 3 digits with BCD decoder and digit multiplexing |
 | Expansion Headers     | Standard 2.54 mm pitch                           |
-| Prototyping Area      | Integrated solder prototyping area               |
+| Prototyping Area      | x points breadboard with power rails             |
 | Debug Interface       | Analog Discovery compatible header               |
 | PCB Dimensions        | *To be added*                                    |
 
