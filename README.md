@@ -48,6 +48,8 @@ This project extends the capabilities of the BASYS3 FPGA board by integrating co
 * Assembled board pictures *(to be added after fabrication)*
 * Bill of Materials *(TODO)*
 
+*NOTE*: This repository is intended as a portfolio showcase of the project, so CAD project files and Gerber files are intentionally **not** included.
+
 ---
 
 ## Design Goals
@@ -69,14 +71,6 @@ The board is organized into several functional blocks:
 * Analog Discovery interface
 * General-purpose prototyping area
 * Power distribution circuitry
-
----
-
-## Design Files
-
-This repository is intended as a portfolio showcase of the project.
-
-Native CAD project files, Gerber files, Bill of Materials (BOM), and pick-and-place files are intentionally **not** included.
 
 ---
 
