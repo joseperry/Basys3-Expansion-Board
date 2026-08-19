@@ -29,27 +29,26 @@ The result is a compact platform for experimenting with digital-to-analog conver
   <img src="CAD/images/pcb_bare_bottom.jpeg" alt="Bare PCB Bottom" width="49%">
 </p>
 
-Might need to get better at taking pictures...
+PCB Manufactureer: JLCPCB
+
+> Might need to get better at taking pictures...
 
 ---
 
 ## Specifications
 
-| Item                  | Description                                         |
-| --------------------- | --------------------------------------------------- |
-| Target Platform       | BASYS3 FPGA Development Board                       |
-| PCB Layers            | 2                                                   |
-| PCB Thickness         | 1.6 mm FR-4                                         |
-| Copper Weight         | 1 oz                                                |
-| Logic Level           | 3.3 V CMOS                                          |
-| Power Source          | BASYS3 Pmod ports (JA & JXADC or JB & JC)           |
-| DACs                  | 8-bit R-2R and 12-bit SPI |
-| 7-Segment Display     | 3 digits with BCD decoder, digit multiplexing and CC/CA selection |
-| OpAmps                | Quad Opamp (MCP6004)                |
-| Expansion Headers     | Standard 2.54 mm pitch                              |
-| Prototyping Area      | 470 points solderless breadboard                    |
-| Debug Interface       | Analog Discovery connection |
-| PCB Dimensions        | 3.8in x 5.12in (97mm x 130mm)                       |
+| Item                      | Description                                          |
+| ------------------------- | ---------------------------------------------------- |
+| **Target Platform**       | BASYS3 FPGA Development Board                        |
+| **PCB Specs**             | 2 Layer, 1.6 mm FR-4, 1 oz, 3.8in x 5.12in (97mm x 130mm), LeadFree HASL |
+| **Power Source**          | 3.3 V from BASYS3 Pmod ports (JA & JXADC or JB & JC) |
+| **Logic Level**           | 3.3 V CMOS                                           |
+| **DACs**                  | 8-bit R-2R and 12-bit SPI                            |
+| **7-Segment Display**     | 3 digits with BCD decoder, digit multiplexing and CC/CA selection |
+| **OpAmps**                | Quad Opamp (MCP6004 or MCP6499)                      |
+| **Expansion Headers**     | Standard 2.54 mm pitch                               |
+| **Prototyping Area**      | 470 points solderless breadboard                     |
+| **Debug Interface**       | Analog Discovery connection                          |
 
 
 ---
@@ -74,9 +73,8 @@ Might need to get better at taking pictures...
 
 ## Documentation
 
-* Schematic (PDF)
-* PCB top and bottom views (3D and photos)
-* PCB renders
+* [Schematic](https://github.com/joseperry/Basys3-Expansion-Board/blob/main/CAD/schematic/BASYS3_Expansion_schematic.PDF)
+* PCB top and bottom views ([Renders and photos](https://github.com/joseperry/Basys3-Expansion-Board/tree/main/CAD/images))
 <!--* Assembled board pictures *(to be added)* -->
 <!-- * Bill of Materials *(TODO)* -->
 
@@ -99,3 +97,10 @@ Might need to get better at taking pictures...
 The documentation and images contained in this repository are licensed under the MIT License unless otherwise stated.
 
 The hardware design itself is **not** open source. This repository does not include the native CAD project files or manufacturing data required to reproduce the board.
+
+---
+
+<p align="center">
+	<img src="https://static.wikia.nocookie.net/phineasandferb/images/3/39/Agent_P.png/revision/latest?cb=20110803145338" alt="platypus" height="100" style="pointer-events: none;"> <br>
+	<span>Platypus</span>
+</p>
