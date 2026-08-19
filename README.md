@@ -2,11 +2,11 @@
 
 > **Status:** PCB fabrication completed. Awaiting for components and assembly.
 
----
-
 ## Overview
 
 The BASYS3 already provides plenty of digital I/O, switches, LEDs, and displays, but it lacks analog output and signal conditioning capabilities. This board was created to fill that gap by adding a pair of DACs, a quad op amp, Analog Discovery 2 connectivity, and a prototyping area on a single expansion board.
+
+The design goals were to extend the BASYS3 with additional hardware resources while keeping the design simple, easy to understand, and based on readily available off-the-shelf components.
 
 The result is a compact platform for experimenting with digital-to-analog conversion, basic analog circuits, and mixed-signal FPGA projects.
 
@@ -81,14 +81,6 @@ Might need to get better at taking pictures...
 * Bill of Materials *(TODO)*
 
 *NOTE*: This repository is intended as a portfolio showcase of the project, so CAD project files and Gerber files are intentionally **not** included.
-
----
-
-## Design Goals
-
-* Extend the BASYS3 with additional hardware resources.
-* Maintain a simple, easy-to-understand design.
-* Use off-the-shelf components.
 
 ---
 
