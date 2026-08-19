@@ -77,10 +77,11 @@ Might need to get better at taking pictures...
 * Schematic (PDF)
 * PCB top and bottom views (3D and photos)
 * PCB renders
-* Assembled board pictures *(to be added)*
-* Bill of Materials *(TODO)*
+<!--* Assembled board pictures *(to be added)* -->
+<!-- * Bill of Materials *(TODO)* -->
 
-*NOTE*: This repository is intended as a portfolio showcase of the project, so CAD project files and Gerber files are intentionally **not** included.
+> [!NOTE]
+> This repository is intended as a portfolio showcase of the project, so CAD project files and Gerber files are intentionally **not** included.
 
 ---
 
