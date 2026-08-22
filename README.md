@@ -1,6 +1,9 @@
 # BASYS3 Expansion Board
 
-> **Status:** PCB fabrication completed. Awaiting for components and assembly.
+> **Status:** PCB Assembled. Finalizing documentation and performing HW testing.
+
+
+
 
 ## Overview
 
@@ -10,37 +13,21 @@ The design goals were to extend the BASYS3 with additional hardware resources wh
 
 The result is a compact platform for experimenting with digital-to-analog conversion, basic analog circuits, and mixed-signal FPGA projects.
 
----
-
-## Preview
 
 <p align="center">
-  <img src="CAD/images/top_render.png" alt="Top Render" width="49%">
-  <img src="CAD/images/bottom_render.png" alt="Bottom Render" width="49%">
+  <img src="CAD/images/pcb_final_top.jpeg" alt="PCB Top" width="49%">
+  <img src="CAD/images/pcb_final_bottom.jpeg" alt="PCB Bottom" width="49%">
 </p>
 
 
----
 
-## Fabricated PCB
-
-<p align="center">
-  <img src="CAD/images/pcb_bare_top.jpeg" alt="Bare PCB Top" width="49%">
-  <img src="CAD/images/pcb_bare_bottom.jpeg" alt="Bare PCB Bottom" width="49%">
-</p>
-
-PCB Manufactureer: JLCPCB
-
-> Might need to get better at taking pictures...
-
----
 
 ## Specifications
 
 | Item                      | Description                                          |
 | ------------------------- | ---------------------------------------------------- |
 | **Target Platform**       | BASYS3 FPGA Development Board                        |
-| **PCB Specs**             | 2 Layer, 1.6 mm FR-4, 1 oz, 3.8in x 5.12in (97mm x 130mm), LeadFree HASL |
+| **PCB Specs**             | 2 Layer, 1.6 mm FR-4, 1 oz, 3.8in x 5.12in, LeadFree HASL, Manufactureer: JLCPCB |
 | **Power Source**          | 3.3 V from BASYS3 Pmod ports (JA & JXADC or JB & JC) |
 | **Logic Level**           | 3.3 V CMOS                                           |
 | **DACs**                  | 8-bit R-2R and 12-bit SPI                            |
@@ -51,7 +38,6 @@ PCB Manufactureer: JLCPCB
 | **Debug Interface**       | Analog Discovery connection                          |
 
 
----
 
 
 ## Peripherals Pinout
@@ -69,28 +55,28 @@ PCB Manufactureer: JLCPCB
 > [!TIP]
 > The pin labels are also marked on the bottom side of the PCB.
 
----
+
+
 
 ## Documentation
 
 * [Schematic](https://github.com/joseperry/Basys3-Expansion-Board/blob/main/CAD/schematic/BASYS3_Expansion_schematic.PDF)
 * PCB top and bottom views ([Renders and photos](https://github.com/joseperry/Basys3-Expansion-Board/tree/main/CAD/images))
-<!--* Assembled board pictures *(to be added)* -->
-<!-- * Bill of Materials *(TODO)* -->
+* [Bill of Materials *(TODO)*](https://github.com/joseperry/Basys3-Expansion-Board/#documentation)
 
 > [!NOTE]
 > This repository is intended as a portfolio showcase of the project, so CAD project files and Gerber files are intentionally **not** included.
 
----
+
+
 
 ## Future Work
 
-* Manufacture and assemble the PCB
 * Hardware validation and testing
-* Add photographs of the assembled board
 * Publish example FPGA projects demonstrating the peripherals
 
----
+
+
 
 ## License
 
@@ -98,9 +84,11 @@ The documentation and images contained in this repository are licensed under the
 
 The hardware design itself is **not** open source. This repository does not include the native CAD project files or manufacturing data required to reproduce the board.
 
+
+
+
 ---
 
 <p align="center">
 	<img src="https://static.wikia.nocookie.net/phineasandferb/images/3/39/Agent_P.png/revision/latest?cb=20110803145338" alt="platypus" height="100" style="pointer-events: none;"> <br>
-	<span>Platypus</span>
 </p>
